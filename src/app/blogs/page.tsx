@@ -12,7 +12,6 @@ const BlogPage = async () => {
     cache: "no-store",
   });
   const blogs = await res.json();
-  // console.log(blogs);
 
   return (
     <div className="w-[90%] mx-auto">

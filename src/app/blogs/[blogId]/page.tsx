@@ -9,7 +9,6 @@ const BlogDetailsPage = async ({
 
   const res = await fetch(`http://localhost:5000/blogs/${blogId}`);
   const blog = await res.json();
-  //   console.log(blog);
 
   return (
     <div className="my-10">
